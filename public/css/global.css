@@ -1,0 +1,54 @@
+/* 
+	Resets defualt browser settings
+	reset.css
+*/
+ol,ul { list-style:none; }
+
+
+#slides {
+	position:centre;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+
+#slides .slide {
+	width:530px;
+	padding:20px;	
+}
+
+
+.slides_container {
+	width:570px;
+	height:270px;
+	overflow:hidden;
+	position:relative;
+}
+
+
+.pagination {
+	margin:26px auto 0;
+	width:150px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+
